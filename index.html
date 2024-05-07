@@ -20,7 +20,8 @@
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="static/css/styles.css" rel="stylesheet" />
+        <link href="assets/css/cookie-popup.css" rel="stylesheet" />
+        <link href="assets/css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -194,26 +195,15 @@
                 </div>
             </section>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-65781PJL6D"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+       
 
-  gtag('config', 'G-65781PJL6D');
-</script>
-<!-- Cookie Consent Popup -->
-<div id="js/cookie-popup" class="cookie-popup" style="display: none;">
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <!-- Cookie Consent Popup -->
+<div id="cookie-popup" class="cookie-popup" style="display: none;">
     <p>We use cookies to improve your experience and analyze site usage. Read our <a href="legal/cookie.html">Cookie Policy</a> for more information.</p>
     <button onclick="acceptCookies()">Accept</button>
 </div>
-<body>
-    <footer class="footer mt-auto py-3 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-3">
@@ -238,6 +228,19 @@
             </div>
         </div>
     </footer>
-    <script src="js/cookie-popup.js"></script>
+    <script src="assets/js/cookie-popup.js"></script>
+     <!-- Bootstrap core JS-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Core theme JS-->
+     <script src="assets/js/scripts.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-65781PJL6D"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-65781PJL6D');
+</script>
     </body>
 </html>
